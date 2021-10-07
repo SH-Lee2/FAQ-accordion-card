@@ -3,7 +3,7 @@
     user-select: none;
 }
 body {
-    padding: 10% 5%;
+    padding: 3%5%;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -14,9 +14,8 @@ body {
 }
 
 .card {
-    position: relative;
     width: 900px;
-    min-height: 500px;
+    min-height: 520px;
     background-color: white;
     border-radius: 30px;
     display: grid;
@@ -26,23 +25,24 @@ body {
 }
 .card__pattern {
     background: url(./images/bg-pattern-desktop.svg) no-repeat;
-    background-position: bottom 30% left 100%;
-    background-size: 65rem;
+    background-position: bottom -170px right 20px;
+    background-size: 1040px;
 }
 .card__image {
+    position: relative;
     width: 100%;
     height: 100%;
     background: url(./images/illustration-woman-online-desktop.svg) no-repeat;
-    background-position: bottom 70% left -90px;
-    background-size: 30rem;
+    background-position: bottom 95px left -90px;
+    background-size: 470px;
 }
 .card__image-box {
     width: 100%;
     height: 100%;
     background: url(./images/illustration-box-desktop.svg) no-repeat;
-    background-size: 13rem;
+    background-size: 200px;
     transform: translateX(-50px);
-    background-position: bottom 45% left -50px;
+    background-position: bottom 140px left -50px;
 }
 
 .faq {
@@ -103,7 +103,7 @@ body {
 
 @media (max-width: 976px) {
     body {
-        padding: 10% 5%;
+        padding: 13% 4% 4% 4%;
     }
     .card {
         display: grid;
@@ -144,5 +144,16 @@ body {
     }
     .answer {
         text-align: start;
+    }
+}
+@media (max-width: 700px) {
+    body {
+        padding: 17% 4% 3% 4%;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 31% 5% 5% 5%;
     }
 }

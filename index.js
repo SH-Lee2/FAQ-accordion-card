@@ -1,5 +1,6 @@
 const question = document.querySelector(".faq");
-
+const imageBox = document.querySelector(".card__image-box");
+const imageRect = imageBox.getBoundingClientRect();
 const handleClick = (e) => {
     const target = e.target;
     if (target.matches(".fas")) {
