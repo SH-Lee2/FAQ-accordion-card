@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 <img src="https://user-images.githubusercontent.com/59095793/136271551-75fb0e02-11ca-4c72-b032-f17c3fabdec5.png" width="700">
 <img src="https://user-images.githubusercontent.com/59095793/136271560-0afa82b1-df13-4256-bf1b-364705dbf28e.png" width="700">
-<img src="https://user-images.githubusercontent.com/59095793/136271566-121d15ee-b86c-4069-85b6-5c1d06764795.gif" width="700">
+<img src="https://user-images.githubusercontent.com/59095793/136417517-ee0be71c-2d50-4387-ad71-da2a4d7e4be3.gif" width="700">
 
 ## My process
 
