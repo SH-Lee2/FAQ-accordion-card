@@ -69,6 +69,7 @@ body {
     color: hsl(240, 6%, 50%);
     display: inline-block;
     margin: 8px 0;
+    cursor: pointer;
 }
 .question:hover {
     color: hsl(14, 88%, 65%);
@@ -78,12 +79,13 @@ body {
     border: none;
     background-color: hsl(240, 5%, 91%);
 }
-.fas {
-    color: hsl(14, 88%, 65%);
-    cursor: pointer;
+
+.fa-chevron-down::before,
+.fa-chevron-up::before {
     position: absolute;
+    top: 10px;
     right: 0;
-    top: 18px;
+    color: hsl(14, 88%, 65%);
 }
 .answer {
     color: hsl(240, 6%, 50%);

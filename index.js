@@ -3,21 +3,21 @@ const imageBox = document.querySelector(".card__image-box");
 const imageRect = imageBox.getBoundingClientRect();
 const handleClick = (e) => {
     const target = e.target;
-    if (target.matches(".fas")) {
-        updateToggleBtn(target);
+    if (target.matches(".question")) {
         const sectionBox = target.parentNode;
+        updateToggleBtn(sectionBox);
         showAndHideAnswer(sectionBox);
     }
 };
 
 const updateToggleBtn = (target) => {
-    console.log(target);
-    if (target.matches(".fa-chevron-down")) {
-        target.classList.remove("fa-chevron-down");
-        target.classList.add("fa-chevron-up");
+    const btn = target.querySelector(".fas");
+    if (btn.matches(".fa-chevron-down")) {
+        btn.classList.remove("fa-chevron-down");
+        btn.classList.add("fa-chevron-up");
     } else {
-        target.classList.remove("fa-chevron-up");
-        target.classList.add("fa-chevron-down");
+        btn.classList.remove("fa-chevron-up");
+        btn.classList.add("fa-chevron-down");
     }
 };
 
